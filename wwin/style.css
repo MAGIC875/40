@@ -1,0 +1,131 @@
+body{
+    background-image:url(images/backgraund.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container{
+    border: none;
+    display: flex;
+    position: absolute;
+    top:23%;
+    right:16%;
+    gap: 6px;
+    width: 72vw;
+    
+}
+
+.column{
+   
+    border: none;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    width: 318px;
+    height: 100%;
+}
+.newGap{
+    padding-left: 60px;
+}
+
+
+
+.element{
+    width: 156px;
+    height: 156px;
+    border: none;
+}
+.big{
+    width: 320px;
+}
+.photo{
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin: 45px auto 20px;
+    display: block;
+}
+.textInPicture{
+    display: block;
+    font-size: 18px;
+    color: white;
+    padding-left: 20px;
+    padding-top: 105px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.textIn{
+    display: block;
+    font-size: 15px;
+    color: white;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.IDK{
+    position: absolute;
+    left: 230px;;
+    font-size: 50px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.user{
+    position: absolute;
+    right: 250px;;
+    font-size: 30px;
+    color: white;
+    padding-top: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.UserPhoto{
+    position: absolute;
+    right: 190px;;
+    border: none;
+    width: 60px;
+    height: 60px;
+    padding-top: 50px;
+
+}
+.aqua{
+    background-color: rgb(3, 216, 216);
+
+}
+.orange{
+    background-color: rgb(255, 147, 24);
+}
+.purple{
+    background-color: blueviolet;
+}
+.picture1{
+    background-image:url(images/ромашки.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.picture2{
+    background-image:url(images/bing.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pink{
+    background-color: rgb(245, 83, 204);
+}
+.green{
+    background-color: rgb(1, 153, 1);
+}
+.blue{
+    background-color: rgb(0, 102, 255);
+}
+.blue2{
+    background-color: rgb(1, 90, 223);
+}
+.mbred{
+    background-color: rgb(255, 22, 72);
+}
+
+.element:hover{  
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+.element:not(:hover){
+    transition: 0.2s;
+}
+
